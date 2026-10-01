@@ -1,0 +1,19 @@
+=== Parameters ===
+learning_rate=0.1
+epsilon_decay=1.2
+starting_e=1.0
+discount_factor=0.9
+episodes=5000
+max_episode_steps=300
+is_slippery=True
+eval_episodes=100
+
+Time to finish: 36.4608 s
+
+=== Training (last 100 episodes) ===
+Average reward: -65.96
+Success rate: 100.0%
+
+=== Evaluation (greedy policy, 100 episodes) ===
+Average reward: -61.68
+Success rate: 100.0%

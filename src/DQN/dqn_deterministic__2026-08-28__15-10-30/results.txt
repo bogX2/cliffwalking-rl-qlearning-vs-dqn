@@ -1,0 +1,24 @@
+=== Parameters ===
+learning_rate=0.001
+epsilon_decay=1.5
+starting_e=1.0
+discount_factor=0.99
+episodes=1000
+max_episode_steps=300
+is_slippery=False
+batch_size=256
+buffer_size=8192
+nn_nodes=32
+eval_episodes=100
+device=cpu
+
+Time to finish: 256.8861 s
+
+=== Training (last 100 episodes) ===
+Average reward: -13.22
+Success rate: 100.0%
+Average loss: 0.0322
+
+=== Evaluation (greedy policy, 100 episodes) ===
+Average reward: -13.00
+Success rate: 100.0%
